@@ -4,6 +4,8 @@ from django.http import HttpResponse
 # Create your views here.
 
 
-def login(request):
+def accounts(request):
     
-     return render(request,'login/login.html')
+    return render(request,'/accounts/profile.html')
+
+# Create your views here.
