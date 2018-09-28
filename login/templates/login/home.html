@@ -1,4 +1,20 @@
-{% extends "layout.html" %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Allayer</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+		<div class="container">
+				<a class="navbar-brand" href="/">Allayer</a>
+		</div>  
+	</nav>
+    <div class="container">
+	    
+    </div>
+</body>
+
 
 {% block content %}
 	{% if user.is_authenticated %}
@@ -7,3 +23,5 @@
 		<a class="lead" href="{% url 'login' %}">Log in</a>
 	{% endif %}
 {% endblock content %}
+
+</html>

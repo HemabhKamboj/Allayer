@@ -8,5 +8,6 @@ app_name = 'login'
 urlpatterns = [
 
     path('',  views.login, name='login'),
-    path('auth/', include('social_django.urls'), name='social')
+    path('auth/', include('social_django.urls'), name='social'),
+    path('profile/',  views.home, name='home')
 ]
