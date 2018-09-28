@@ -1,0 +1,288 @@
+/* Donation Box Area css
+============================================================================================ */
+.donation_area{
+	margin-top: -90px;
+}
+.donation_inner{
+	
+}
+.dontation_item{
+	padding: 30px;
+	.media{
+		color: #fff;
+		vertical-align: middle;
+		align-self: center;
+		.media-body{
+			h4{
+				font-size: 18px;
+				font-family: $pop;
+				font-weight: 500;
+				text-transform: uppercase;
+				margin-bottom: 15px;
+			}
+			p{
+				margin-bottom: 0px;
+				font-size: 14px;
+				line-height: 24px;
+				font-weight: 300;
+			}
+		}
+		.d-flex{
+			padding-left: 50px;
+			vertical-align: middle;
+			align-self: center;
+			position: relative;
+			&:before{
+				content: "";
+				height: 120px;
+				width: 1px;
+				background: #fff;
+				position: absolute;
+				left: 28px;
+				top: -45px;
+			}
+			h3{
+				font-weight: 500;
+				font-size: 18px;
+				font-family: $pop;
+			}
+		}
+	}
+}
+.yellow{
+	background: #e7c12d;
+}
+.pink{
+	background: $baseColor;
+}
+.green{
+	background: #91d214;
+}
+/* End Donation Box Area css
+============================================================================================ */
+
+/* Welcome Area css
+============================================================================================ */
+.welcome_area{
+	padding-top: 150px;
+}
+.welcome_inner{
+	.welcome_img{
+		background: #eeeeee;
+		margin-left: 40px;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 30px;
+		img{
+			margin-top: -30px;
+		}
+	}
+}
+.welcome_text{
+	h4{
+		color: $dip;
+		font-family: $pop;
+		font-size: 36px;
+		margin-bottom: 18px;
+	}
+	p{
+		max-width: 495px;
+		line-height: 24px;
+		font-family: $pop;
+		font-size: 14px;
+		font-weight: 300;
+		margin-bottom: 40px;
+	}
+}
+.wel_item{
+	border: 1px solid #eeeeee;
+	padding: 30px 25px;
+	i{
+		font-size: 24px;
+		color: $baseColor;
+	}
+	h4{
+		font-size: 24px;
+		font-family: $pop;
+		font-weight: 600;
+		color: $dip;
+		margin-bottom: 5px;
+		margin-top: 10px;
+	}
+	p{
+		font-size: 14px;
+		font-family: $pop;
+		color: $pfont;
+		margin-bottom: 0px;
+	}
+}
+/* End Welcome Area css
+============================================================================================ */
+
+/* Feature Area css
+============================================================================================ */
+.feature_area{
+	background: #04091e;
+	position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 651px;
+    z-index: 1;
+	.overlay{
+		background: url(../img/feature-bg.jpg) no-repeat scroll center center;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		height: 125%;
+		bottom: 0;
+		z-index: -1;
+		opacity: .25
+	}
+}
+.feature_inner{
+	
+}
+.feature_item{
+	text-align: center;
+	background: rgba(255, 255, 255, .10);
+	padding: 50px 37px 35px 37px;
+	border: 1px solid #6c6d77;
+	color: #fff;
+	i{
+		font-size: 24px;
+		margin-bottom: 25px;
+		display: inline-block;
+	}
+	h4{
+		font-size: 18px;
+		font-weight: 600;
+		color: #fff;
+		text-transform: uppercase;
+		font-family: $pop;
+		margin-bottom: 15px;
+	}
+	p{
+		margin-bottom: 0px;
+		color: $pfont;
+	}
+}
+/* End Feature Area css
+============================================================================================ */
+
+/* Donation Form Area css
+============================================================================================ */
+.donation_f_area{
+	overflow: hidden;
+}
+.donation_f_inner{
+	
+}
+.dn_left_text{
+	.dn_item{
+		margin-bottom: 40px;
+		&:last-child{
+			margin-bottom: 0px;
+		}
+		h4{
+			color: $dip;
+			font-family: $pop;
+			font-weight: 600;
+			font-size: 20px;
+			margin-bottom: 16px;
+		}
+		p{
+			margin-bottom: 0px;
+		}
+	}
+}
+.dn_form_area{
+	.donation_form{
+		.form-group{
+			.donate_select{
+				width: 100%;
+				padding-top: 0px;
+				padding-bottom: 0px;
+				border-radius: 0px;
+				border: 1px solid #eeeeee;
+				height: 40px;
+				line-height: 38px;
+				padding-left: 20px;
+				padding-right: 35px;
+				&:after{
+					content: "\e874";
+					font-family: 'Linearicons-Free';
+					transform: rotate(0deg);
+					border: none;
+					width: auto;
+					margin-top: -18px;
+					color: #999999;
+					right: 17px;
+				}
+				span{
+					font-size: 13px;
+					color: #999999;
+					font-family: $pop;
+					font-weight: 300;
+				}
+				.list{
+					border-radius: 0px;
+					li{
+						font-size: 14px;
+						font-family: $pop;
+						font-weight: 300;
+						color: $pfont;
+					}	
+				}
+			}
+			input{
+				height: 40px;
+				border: 1px solid #eeeeee;
+				padding: 0px 20px;
+				border-radius: 0px;
+				font-size: 13px;
+				color: #999999;
+				font-family: $pop;
+				font-weight: 300;
+				@include placeholder{
+					font-size: 13px;
+					color: #999999;
+					font-family: $pop;
+					font-weight: 300;
+				}
+			}
+			textarea{
+				height: 120px;
+				border: 1px solid #eeeeee;
+				padding: 15px 20px;
+				border-radius: 0px;
+				font-size: 13px;
+				color: #999999;
+				font-family: $pop;
+				font-weight: 300;
+				resize: none;
+				@include placeholder{
+					font-size: 13px;
+					color: #999999;
+					font-family: $pop;
+					font-weight: 300;
+				}
+			}
+			.submit_btn{
+				float: right;
+			}
+		}
+	}
+}
+.master_card{
+	text-align: center;
+	margin-top: 75px;
+	span{
+		font-size: 14px;
+		font-weight: 300;
+		color: $pfont;
+		padding-right: 15px;
+	}
+}
+/* End Donation Form Area css
+============================================================================================ */

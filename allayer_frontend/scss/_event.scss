@@ -1,0 +1,118 @@
+/* Event Area css
+============================================================================================ */
+.event_area{
+	
+}
+.event_slider{
+	.owl-dots{
+		text-align: center;
+		margin-top: 80px;
+		.owl-dot{
+			height: 14px;
+			width: 14px;
+			background: #eeeeee;
+			display: inline-block;
+			margin-right: 7px;
+			&:last-child{
+				margin-right: 0px;
+			}
+			&.active{
+				background: $baseColor;
+			}
+		}
+	}
+}
+.event_item{
+	.media{
+		.d-flex{
+			padding-right: 30px;
+		}
+		.media-body{
+			vertical-align: middle;
+			align-self: center;
+			a{
+				font-size: 12px;
+				font-family: $pop;
+				font-weight: 300;
+				@include transition;
+				color: $pfont;
+				margin-bottom: 10px;
+				display: block;
+				&:hover{
+					color: $baseColor;
+				}
+			}
+			h4{
+				color: $dip;
+				font-family: $pop;
+				font-weight: 600;
+				font-size: 18px;
+				padding-right: 50px;
+				line-height: 24px;
+				margin-bottom: 15px;
+				@include transition;
+				&:hover{
+					color: $baseColor;
+				}
+			}
+			p{
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+
+.event_main_area{
+	.event_main_inner{
+		margin-bottom: -30px;
+		.col-lg-6{
+			margin-bottom: 30px;
+		}
+	}
+}
+
+/* End Event Area css
+============================================================================================ */
+
+/* Event Details Area css
+============================================================================================ */
+.event_details_area{
+	
+}
+.event_d_inner{
+	max-width: 750px;
+	margin: auto;
+	.event_text_inner{
+		margin-top: 35px;
+	}
+	.left_text{
+		.list{
+			li{
+				a{
+					font-size: 14px;
+					line-height: 30px;
+					font-family: $pop;
+					color: $pfont;
+					i{
+						padding-right: 8px;
+						color: $dip;
+					}
+				}
+			}
+		}
+	}
+	.right_text{
+		padding-left: 15px;
+		h4{
+			color: $dip;
+			font-family: $pop;
+			margin-bottom: 15px;
+			font-size: 24px;
+		}
+		p{
+			margin-bottom: 0px;
+		}
+	}
+}
+/* End Event Details Area css
+============================================================================================ */

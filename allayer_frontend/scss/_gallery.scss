@@ -1,0 +1,47 @@
+/* Gallery Area css
+============================================================================================ */
+.gallery_inner{
+	margin-bottom: -30px;
+}
+.gallery_item{
+    margin-bottom: 30px;
+    img{
+        max-width: 100%;
+    }
+	.gallery_img{
+		position: relative;
+		.hover{
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			background: rgba(0, 0, 0, .5);
+			width: 100%;
+			text-align: center;
+			font-size: 24px;
+			height: 100%;
+			color: #fff;
+			transition: all 300ms ease;
+			opacity: 0;
+			i{
+				position: absolute;
+				left: 0px;
+				top: 50%;
+				width: 100%;
+				text-align: center;
+				transform: translateY(-50%);
+				color: #fff;
+			}
+		}
+		&:hover{
+			.hover{
+				opacity: 1;
+			}
+		}
+	}
+}
+.load_btn{
+	text-align: center;
+	margin-top: 80px;
+}
+/* End Gallery Area css
+============================================================================================ */
