@@ -1,0 +1,105 @@
+/* Testimonials Area css
+============================================================================================ */
+.testimonials_area{
+	background: #f9f9ff;
+}
+.testimonials_inner{
+	.testi_left_text{
+		max-width: 320px;
+		margin-top: 105px;
+		h4{
+			font-size: 36px;
+			color: $dip;
+			font-weight: 600;
+			padding-right: 20px;
+			margin-bottom: 20px;
+		}
+		p{
+			color: $pfont;
+			line-height: 24px;
+			font-size: 14px;
+		}
+	}
+}
+.testi_slider{
+	.owl-dots{
+		text-align: center;
+		margin-top: 80px;
+		.owl-dot{
+			height: 14px;
+			width: 14px;
+			background: #eeeeee;
+			display: inline-block;
+			margin-right: 7px;
+			&:last-child{
+				margin-right: 0px;
+			}
+			&.active{
+				background: $baseColor;
+			}
+		}
+	}
+}
+.testi_item{
+	background: #fff;
+	text-align: center;
+	padding: 50px 30px;
+	img{
+		width: auto !important;
+		margin: auto;
+		margin-bottom: 30px;
+	}
+	p{
+		line-height: 24px;
+		color: $pfont;
+		font-family: $pop;
+		margin-bottom: 30px;
+	}
+	h4{
+		font-size: 18px;
+		color: $dip;
+		font-family: $pop;
+		font-weight: 600;
+		margin-bottom: 5px;
+		@include transition;
+		&:hover{
+			color: $baseColor;
+		}
+	}
+	h6{
+		line-height: 24px;
+		color: $pfont;
+		font-family: $pop;
+		font-size: 14px;
+		font-weight: 300;
+	}
+}
+/* End Testimonials Area css
+============================================================================================ */
+
+/* Clients Logo Area css
+============================================================================================ */
+.clients_logo_area{
+	padding: 115px 0px;
+	.clients_slider{
+		.item{
+			text-align: center;
+			img{
+				width: auto;
+				text-align: center;
+				display: block;
+				margin: auto;
+				line-height: 70px;
+				opacity: .5;
+				@include transition;
+			}
+			&:hover{
+				img{
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+/* End Clients Logo Area css
+============================================================================================ */

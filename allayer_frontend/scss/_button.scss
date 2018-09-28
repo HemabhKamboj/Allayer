@@ -1,0 +1,77 @@
+/* Main Button Area css
+============================================================================================ */
+.main_btn{
+	line-height: 40px;
+	display: inline-block;
+	padding: 0px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: $pop;
+	font-weight: 600;
+	font-size: 14px;
+	background: $baseColor;
+	color: #fff;
+	border: 1px solid $baseColor;
+	@include transition;
+	&:hover{
+		background: transparent;
+		color: $baseColor;
+	}
+}
+.submit_btn{
+	line-height: 40px;
+	padding: 0px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: $pop;
+	font-weight: 600;
+	font-size: 14px;
+	background: $baseColor;
+	color: #fff;
+	border: 1px solid $baseColor;
+	@include transition;
+	border-radius: 0px;
+	display: inline-block;
+	width: auto;
+	&:hover{
+		background: transparent;
+		color: $baseColor;
+	}
+}
+.white_btn{
+	border: 1px solid #635e68;
+	display: inline-block;
+	padding: 0px 30px;
+	text-transform: uppercase;
+	background: rgba(255, 255, 255, .10);
+	line-height: 40px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	@include transition;
+	font-family: $pop;
+	&:hover{
+		color: #fff;
+		background: $baseColor;
+		border-color: $baseColor;
+	}
+}
+.white_bg_btn{
+	line-height: 40px;
+	display: inline-block;
+	padding: 0px 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: $pop;
+	font-weight: 500;
+	font-size: 14px;
+	background: #fff;
+	color: $dip;
+	@include transition;
+	&:hover{
+		background: $baseColor;
+		color: #fff;
+	}
+}
+/* End Main Button Area css
+============================================================================================ */
