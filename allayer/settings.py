@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'social_django',
     'login',
+    'mainapp',
 ]
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY ='699164630533-mceqj09oajouhjoccvopk4go7jge62hl.apps.googleusercontent.com'

@@ -8,6 +8,14 @@ def login(request):
     
      return render(request,'login/login.html')
      
+def login_volunteer(request):
+    return render(request,'login/volunteer_login.html')
+    
 
+def login_victim(request):
+    return render(request,'login/victim_login.html')
+
+def login_ngo(request):
+    return render(request,'login/ngo_login.html')
 def home(request):
     return render (request, 'login/home.html')     
