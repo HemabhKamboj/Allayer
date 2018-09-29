@@ -9,7 +9,7 @@ def login(request):
      return render(request,'login/login.html')
      
 def login_volunteer(request):
-    return render(request,'login/volunteer_login.html')
+    return render(request,'login//volunteer-login/volunteer.html')
     
 
 def login_victim(request):
