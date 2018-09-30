@@ -1,5 +1,7 @@
 from django.urls import path
 from django.conf.urls import url, include
+from django.conf import settings
+from django.conf.urls.static import static
 
 from . import views
 
@@ -14,4 +16,4 @@ urlpatterns = [
     path('victim/', views.login_victim, name="victim_login"),
     path('ngo', views.login_ngo, name="ngo_login")
 
-]
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
